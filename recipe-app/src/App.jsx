@@ -14,16 +14,6 @@ export default function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/favorites" element={<Favorites />} />
                     <Route path="/recipe/:id" element={<Details />} />
-                    <Route
-                        path="*"
-                        element={
-                            <section className="p-3">
-                                <h3 className="text-center font-bold py-6 text-red-400">
-                                    Page Not Found!!
-                                </h3>
-                            </section>
-                        }
-                    />
                 </Routes>
             </main>
             <Footer name="Nuru" />
