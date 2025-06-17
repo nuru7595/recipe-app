@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import viteClean from "vite-plugin-clean";
 
 export default defineConfig({
-    base: "./",
+    base: "/recipe-app/",
     build: {
         outDir: "../",
     },

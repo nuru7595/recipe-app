@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import GlobalState from "./context";
 
 createRoot(document.getElementById("root")).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/recipe-app">
         <StrictMode>
             <GlobalState>
                 <App />
